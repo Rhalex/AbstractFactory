@@ -3,25 +3,20 @@ package Logic;
 public class OrientalFactory implements ItemsFactory {
 
 	@Override
-	public Item MakeHouse() 
+	public House MakeHouse() 
 	{
 		return new OrientalHouse();
 	}
 
 	@Override
-	public Item MakeTree() 
+	public Tree MakeTree() 
 	{
 		return new OrientalTree();
 	}
 
 	@Override
-	public Item MakeLamp() 
+	public Lamp MakeLamp() 
 	{
 		return new OrientalLamp();
 	}
-	
-	/*public void s()
-	{
-		System.out.println("s");
-	}*/
 }

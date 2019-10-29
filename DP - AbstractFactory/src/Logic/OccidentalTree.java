@@ -2,11 +2,11 @@ package Logic;
 
 import javax.swing.ImageIcon;
 
-public class OccidentalTree extends Item {
+public class OccidentalTree extends Tree {
 
 	public OccidentalTree() 
 	{
-		this.price = 50;
+		super();
 		this.img = new ImageIcon("imgs/occidentalTree.png");
 	}
 }

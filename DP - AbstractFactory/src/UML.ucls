@@ -1,194 +1,221 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <class-diagram version="1.2.3" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
   associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
-  <class id="1" language="java" name="Logic.OccidentalFactory" project="DP - AbstractFactory" 
+  <class id="1" language="java" name="Logic.Lamp" project="DP - AbstractFactory" 
+    file="/DP - AbstractFactory/src/Logic/Lamp.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="75" y="794"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="2" language="java" name="Logic.OccidentalFactory" project="DP - AbstractFactory" 
     file="/DP - AbstractFactory/src/Logic/OccidentalFactory.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="1087" y="90"/>    
+    <position height="-1" width="-1" x="827" y="93"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="2" language="java" name="Logic.OrientalLamp" project="DP - AbstractFactory" 
+  <class id="3" language="java" name="Logic.OrientalLamp" project="DP - AbstractFactory" 
     file="/DP - AbstractFactory/src/Logic/OrientalLamp.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="178" y="539"/>    
+    <position height="-1" width="-1" x="-16" y="928"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="3" language="java" name="Logic.OrientalTree" project="DP - AbstractFactory" 
+  <class id="4" language="java" name="Logic.Tree" project="DP - AbstractFactory" 
+    file="/DP - AbstractFactory/src/Logic/Tree.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="388" y="788"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="5" language="java" name="Logic.OrientalTree" project="DP - AbstractFactory" 
     file="/DP - AbstractFactory/src/Logic/OrientalTree.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="174" y="746"/>    
+    <position height="-1" width="-1" x="293" y="912"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="4" language="java" name="Logic.Item" project="DP - AbstractFactory" 
+  <class id="6" language="java" name="Logic.Item" project="DP - AbstractFactory" 
     file="/DP - AbstractFactory/src/Logic/Item.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="464" y="598"/>    
+    <position height="-1" width="-1" x="393" y="578"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="5" language="java" name="Graphic.Game" project="DP - AbstractFactory" 
-    file="/DP - AbstractFactory/src/Graphic/Game.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="112" y="200"/>    
-    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
-      sort-features="false" accessors="true" visibility="true">      
-      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
-      <operations public="true" package="true" protected="true" private="true" static="true"/>    
-    </display>  
-  </class>  
-  <class id="6" language="java" name="Logic.OccidentalTree" project="DP - AbstractFactory" 
-    file="/DP - AbstractFactory/src/Logic/OccidentalTree.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="792" y="714"/>    
-    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
-      sort-features="false" accessors="true" visibility="true">      
-      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
-      <operations public="true" package="true" protected="true" private="true" static="true"/>    
-    </display>  
-  </class>  
-  <class id="7" language="java" name="Logic.OrientalHouse" project="DP - AbstractFactory" 
-    file="/DP - AbstractFactory/src/Logic/OrientalHouse.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="178" y="638"/>    
-    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
-      sort-features="false" accessors="true" visibility="true">      
-      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
-      <operations public="true" package="true" protected="true" private="true" static="true"/>    
-    </display>  
-  </class>  
-  <class id="8" language="java" name="Graphic.GamePanel" project="DP - AbstractFactory" 
+  <class id="7" language="java" name="Graphic.GamePanel" project="DP - AbstractFactory" 
     file="/DP - AbstractFactory/src/Graphic/GamePanel.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="474" y="237"/>    
+    <position height="-1" width="-1" x="386" y="228"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <interface id="9" language="java" name="Logic.ItemsFactory" project="DP - AbstractFactory" 
+  <interface id="8" language="java" name="Logic.ItemsFactory" project="DP - AbstractFactory" 
     file="/DP - AbstractFactory/src/Logic/ItemsFactory.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="782" y="263"/>    
+    <position height="-1" width="-1" x="624" y="230"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </interface>  
-  <class id="10" language="java" name="Logic.OccidentalHouse" project="DP - AbstractFactory" 
+  <class id="9" language="java" name="Logic.House" project="DP - AbstractFactory" 
+    file="/DP - AbstractFactory/src/Logic/House.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="736" y="759"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="10" language="java" name="Graphic.Game" project="DP - AbstractFactory" 
+    file="/DP - AbstractFactory/src/Graphic/Game.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="49" y="231"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="11" language="java" name="Logic.OccidentalTree" project="DP - AbstractFactory" 
+    file="/DP - AbstractFactory/src/Logic/OccidentalTree.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="469" y="905"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="12" language="java" name="Logic.OrientalHouse" project="DP - AbstractFactory" 
+    file="/DP - AbstractFactory/src/Logic/OrientalHouse.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="630" y="912"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="13" language="java" name="Logic.OccidentalHouse" project="DP - AbstractFactory" 
     file="/DP - AbstractFactory/src/Logic/OccidentalHouse.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="793" y="604"/>    
+    <position height="-1" width="-1" x="853" y="913"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="11" language="java" name="Logic.OccidentalLamp" project="DP - AbstractFactory" 
+  <class id="14" language="java" name="Logic.OccidentalLamp" project="DP - AbstractFactory" 
     file="/DP - AbstractFactory/src/Logic/OccidentalLamp.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="794" y="513"/>    
+    <position height="-1" width="-1" x="141" y="918"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="12" language="java" name="Logic.OrientalFactory" project="DP - AbstractFactory" 
+  <class id="15" language="java" name="Logic.OrientalFactory" project="DP - AbstractFactory" 
     file="/DP - AbstractFactory/src/Logic/OrientalFactory.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="1118" y="258"/>    
+    <position height="-1" width="-1" x="841" y="364"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <generalization id="13">    
-    <end type="SOURCE" refId="2"/>    
+  <generalization id="16">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="6"/>  
+  </generalization>  
+  <association id="17">    
+    <end type="SOURCE" refId="7" navigable="false">      
+      <attribute id="18" name="matrix">        
+        <position height="17" width="37" x="324" y="454"/>      
+      </attribute>      
+      <multiplicity id="19" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="6" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="20">    
+    <end type="SOURCE" refId="14"/>    
+    <end type="TARGET" refId="1"/>  
+  </generalization>  
+  <generalization id="21">    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="6"/>  
+  </generalization>  
+  <generalization id="22">    
+    <end type="SOURCE" refId="11"/>    
     <end type="TARGET" refId="4"/>  
   </generalization>  
-  <realization id="14">    
+  <generalization id="23">    
     <end type="SOURCE" refId="12"/>    
     <end type="TARGET" refId="9"/>  
-  </realization>  
-  <generalization id="15">    
-    <end type="SOURCE" refId="7"/>    
+  </generalization>  
+  <generalization id="24">    
+    <end type="SOURCE" refId="5"/>    
     <end type="TARGET" refId="4"/>  
   </generalization>  
-  <association id="16">    
-    <end type="SOURCE" refId="5" navigable="false">      
-      <attribute id="17" name="gp">        
-        <position height="0" width="0" x="0" y="0"/>      
-      </attribute>      
-      <multiplicity id="18" minimum="0" maximum="1">        
-        <position height="0" width="0" x="0" y="0"/>      
-      </multiplicity>    
+  <association id="25">    
+    <end type="SOURCE" refId="7" navigable="false">      
+      <attribute id="26" name="factory"/>      
+      <multiplicity id="27" minimum="0" maximum="1"/>    
     </end>    
     <end type="TARGET" refId="8" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
-  <generalization id="19">    
-    <end type="SOURCE" refId="3"/>    
-    <end type="TARGET" refId="4"/>  
-  </generalization>  
-  <generalization id="20">    
-    <end type="SOURCE" refId="6"/>    
-    <end type="TARGET" refId="4"/>  
-  </generalization>  
-  <association id="21">    
-    <end type="SOURCE" refId="8" navigable="false">      
-      <attribute id="22" name="matrix">        
-        <position height="17" width="37" x="387" y="475"/>      
-      </attribute>      
-      <multiplicity id="23" minimum="0" maximum="2147483647">        
-        <position height="15" width="21" x="416" y="455"/>      
-      </multiplicity>    
-    </end>    
-    <end type="TARGET" refId="4" navigable="true"/>    
-    <display labels="true" multiplicity="true"/>  
-  </association>  
-  <realization id="24">    
-    <end type="SOURCE" refId="1"/>    
-    <end type="TARGET" refId="9"/>  
-  </realization>  
-  <association id="25">    
-    <end type="SOURCE" refId="8" navigable="false">      
-      <attribute id="26" name="item">        
-        <position height="17" width="30" x="401" y="488"/>      
-      </attribute>      
-      <multiplicity id="27" minimum="0" maximum="1">        
-        <position height="0" width="0" x="0" y="0"/>      
-      </multiplicity>    
-    </end>    
-    <end type="TARGET" refId="4" navigable="true"/>    
-    <display labels="true" multiplicity="true"/>  
-  </association>  
   <generalization id="28">    
-    <end type="SOURCE" refId="11"/>    
-    <end type="TARGET" refId="4"/>  
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="1"/>  
   </generalization>  
   <generalization id="29">    
-    <end type="SOURCE" refId="10"/>    
-    <end type="TARGET" refId="4"/>  
+    <end type="SOURCE" refId="9"/>    
+    <end type="TARGET" refId="6"/>  
   </generalization>  
   <association id="30">    
-    <end type="SOURCE" refId="8" navigable="false">      
-      <attribute id="31" name="factory">        
-        <position height="0" width="0" x="0" y="0"/>      
-      </attribute>      
-      <multiplicity id="32" minimum="0" maximum="1">        
-        <position height="0" width="0" x="0" y="0"/>      
-      </multiplicity>    
+    <end type="SOURCE" refId="10" navigable="false">      
+      <attribute id="31" name="gp"/>      
+      <multiplicity id="32" minimum="0" maximum="1"/>    
     </end>    
-    <end type="TARGET" refId="9" navigable="true"/>    
+    <end type="TARGET" refId="7" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
+  <association id="33">    
+    <end type="SOURCE" refId="7" navigable="false">      
+      <attribute id="34" name="item">        
+        <position height="17" width="30" x="342" y="469"/>      
+      </attribute>      
+      <multiplicity id="35" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="6" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="36">    
+    <end type="SOURCE" refId="15"/>    
+    <end type="TARGET" refId="8"/>  
+  </realization>  
+  <generalization id="37">    
+    <end type="SOURCE" refId="13"/>    
+    <end type="TARGET" refId="9"/>  
+  </generalization>  
+  <realization id="38">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="8"/>  
+  </realization>  
   <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
     sort-features="false" accessors="true" visibility="true">    
     <attributes public="true" package="true" protected="true" private="true" static="true"/>    

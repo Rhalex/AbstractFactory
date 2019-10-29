@@ -16,7 +16,7 @@ public abstract class Item {
 	{
 		return this.img;
 	}
-	
+		
 	public String toString()
 	{
 		return "Price: " + this.price + "\tImg: " + this.img.getDescription();

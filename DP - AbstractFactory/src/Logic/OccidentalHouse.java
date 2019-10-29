@@ -2,10 +2,13 @@ package Logic;
 
 import javax.swing.ImageIcon;
 
-public class OccidentalHouse extends Item{
+public class OccidentalHouse extends House {
 	
-	public OccidentalHouse() {
-		this.price = 100;
+	public OccidentalHouse() 
+	{
+		super();
+		
 		this.img = new ImageIcon("imgs/occidentalHouse.png");
 	}
+	
 }

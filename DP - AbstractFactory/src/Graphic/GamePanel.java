@@ -71,13 +71,13 @@ public class GamePanel extends JPanel implements MouseListener{
 		createPanel.setLayout( new BoxLayout(createPanel, BoxLayout.PAGE_AXIS));
 		createPanel.setBackground(Color.DARK_GRAY);
 		
-		addHouse = new JButton("HOUSE", createIcon(factory.MakeHouse().getImg().getDescription(), 64));
+		addHouse = new JButton("100", createIcon(factory.MakeHouse().getImg().getDescription(), 64));
 		addHouse.setAlignmentX(CENTER_ALIGNMENT);
 		
-		addTree = new JButton("TREE", createIcon(factory.MakeTree().getImg().getDescription(), 64));
+		addTree = new JButton("50", createIcon(factory.MakeTree().getImg().getDescription(), 64));
 		addTree.setAlignmentX(CENTER_ALIGNMENT);
 		
-		addLamp = new JButton("LAMP", createIcon(factory.MakeLamp().getImg().getDescription(), 64));
+		addLamp = new JButton("25", createIcon(factory.MakeLamp().getImg().getDescription(), 64));
 		addLamp.setAlignmentX(CENTER_ALIGNMENT);
 		
 		counterBudget = new JLabel(createIcon("imgs/budget.png", 40));

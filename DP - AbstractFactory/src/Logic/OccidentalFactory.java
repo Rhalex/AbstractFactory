@@ -3,19 +3,19 @@ package Logic;
 public class OccidentalFactory implements ItemsFactory{
 
 	@Override
-	public Item MakeHouse() 
+	public House MakeHouse() 
 	{
 		return new OccidentalHouse();
 	}
 
 	@Override
-	public Item MakeTree() 
+	public Tree MakeTree() 
 	{
 		return new OccidentalTree();
 	}
 
 	@Override
-	public Item MakeLamp() 
+	public Lamp MakeLamp() 
 	{
 		return new OccidentalLamp();
 	}
